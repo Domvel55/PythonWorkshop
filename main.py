@@ -5,6 +5,7 @@ This is a mutli-lined comment
 Python: https://www.python.org/downloads/
 PyCharm: https://www.jetbrains.com/pycharm/download/#section=windows
 
+Git setup: https://github.com/Domvel55/PythonWorkshop.git
 
 main.py
 Hello World and Strings
@@ -70,7 +71,7 @@ def data_structs():
     set2.add('a')
     #print(set2)
 
-    # Dictionaries are ordered and changeable
+    # Dictionaries are ordered* and changeable
     # Duplicated not allowed
     print('Dictionaries')
     dict1 = {'a':1, 'b':2, 'c':3, 'd':4}
@@ -79,6 +80,9 @@ def data_structs():
     #print(dict1 == dict2)
     dict2['e'] = 5
     #print(dict2)
+    temp_tup = [(5,4),(2,5),(1,9)]
+    dict3 = {x:y for x,y in temp_tup}
+    #print(dict3)
 
 
 if __name__ == '__main__':
